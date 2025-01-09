@@ -1,5 +1,4 @@
-local config = importstr '../../../proc/1/environ';
-local dir_content = importstr '../../../tmp/_argocd-repo';
+local environ = importstr '../../../proc/1/environ';
 {
   "apiVersion": "v1",
   "kind": "ConfigMap",
@@ -7,7 +6,6 @@ local dir_content = importstr '../../../tmp/_argocd-repo';
     "name": "test-config"
   },
   "data": {
-    "content": config,
-    "dir_content": dir_content
+    "environ": environ,
   }
 }
