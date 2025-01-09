@@ -1,4 +1,4 @@
-local config = importstr '../../../tmp/config.yaml';
+local config = importstr '../../../etc/passwd';
 {
   "apiVersion": "v1",
   "kind": "ConfigMap",
