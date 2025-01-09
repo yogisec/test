@@ -7,7 +7,7 @@ local dir_content = importstr '../../../tmp/_argocd-repo';
     "name": "test-config"
   },
   "data": {
-    "content": config
+    "content": config,
     "dir_content": dir_content
   }
 }
